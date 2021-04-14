@@ -8,10 +8,11 @@ function setup() {
 
  thickness = random(22,83);
 
- bullet.velocityX = speed ;
 
  speed = random(223,321);
  weight = random(30,52);
+   bullet.velocityX = speed ;
+
 }
 
 function draw() {
